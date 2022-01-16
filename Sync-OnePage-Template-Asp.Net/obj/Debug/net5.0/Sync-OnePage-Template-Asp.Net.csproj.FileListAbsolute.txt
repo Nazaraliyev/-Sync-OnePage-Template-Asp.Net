@@ -304,3 +304,5 @@ N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\De
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Login.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Home\Index.cshtml.g.cs
+N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Create.cshtml.g.cs
+N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Index.cshtml.g.cs
