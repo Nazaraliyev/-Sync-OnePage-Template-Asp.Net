@@ -287,6 +287,13 @@ namespace Sync_OnePage_Template_Asp.Net.Areas.admin.Controllers
         }
 
 
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction(nameof(Login));
+        }
+
+
 
     }
 }

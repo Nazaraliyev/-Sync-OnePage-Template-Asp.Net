@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@inject SignInManager<IdentityUser> _signInManager
+@inject UserManager<IdentityUser> _userManager
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -316,7 +319,7 @@
 						<li class="nav-item dropdown no-arrow">
 							<a class="nav-link dropdown-toggle" href="~/admin/#" id="userDropdown" role="button"
 							   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+								<span class="mr-2 d-none d-lg-inline text-gray-600 small">@_userManager.GetUserName(User)</span>
 								<img class="img-profile rounded-circle"
 									 src="~/admin/img/undraw_profile.svg">
 							</a>
@@ -336,7 +339,7 @@
 									Activity Log
 								</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="~/admin/#" data-toggle="modal" data-target="#logoutModal">
+								<a class="dropdown-item" asp-area = "admin" asp-controller = "account" asp-action = "logout" >
 									<i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
 									Logout
 								</a>
