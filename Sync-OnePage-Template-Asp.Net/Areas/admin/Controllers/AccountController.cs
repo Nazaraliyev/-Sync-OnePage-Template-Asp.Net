@@ -17,12 +17,14 @@ namespace Sync_OnePage_Template_Asp.Net.Areas.admin.Controllers
         private readonly AppDbContext _context;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
 
-        public AccountController(AppDbContext context, RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager)
+        public AccountController(AppDbContext context, RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
             _context = context;
             _roleManager = roleManager;
             _userManager = userManager;
+            _signInManager = signInManager;
         }
         public IActionResult Index()
         {
@@ -262,6 +264,26 @@ namespace Sync_OnePage_Template_Asp.Net.Areas.admin.Controllers
         public IActionResult Login()
         {
             return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Login(VmUserLogin model)
+        {
+            if (ModelState.IsValid)
+            {
+               var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, false, false);
+                if (result.Succeeded) return RedirectToAction("Index", "Home");
+                else
+                {
+                    ModelState.AddModelError("", "Login or Passwort is not correct");
+                    return View(model);
+                }
+            }
+            else
+            {
+                return View(model);
+            }
         }
 
 
