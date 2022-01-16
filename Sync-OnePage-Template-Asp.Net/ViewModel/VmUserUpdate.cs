@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Sync_OnePage_Template_Asp.Net.ViewModel
 {
-    public class VmUserRegister
+    public class VmUserUpdate
     {
 
         public string Id { get; set; }
@@ -37,14 +37,6 @@ namespace Sync_OnePage_Template_Asp.Net.ViewModel
         [MaxLength(15)]
         public string Phone { get; set; }
 
-        
-        [MaxLength(100), MinLength(5), Required]
-        public string Password { get; set; }
-
-
-
-        [MaxLength(100), MinLength(5),  Compare("Password"), Required]
-        public string ConfirmPassword { get; set; }
 
 
         [Required]

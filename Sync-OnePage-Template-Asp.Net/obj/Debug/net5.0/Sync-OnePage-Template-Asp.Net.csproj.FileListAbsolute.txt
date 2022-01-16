@@ -309,3 +309,4 @@ N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\De
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Role\Index.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Role\Create.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Role\Update.cshtml.g.cs
+N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Update.cshtml.g.cs

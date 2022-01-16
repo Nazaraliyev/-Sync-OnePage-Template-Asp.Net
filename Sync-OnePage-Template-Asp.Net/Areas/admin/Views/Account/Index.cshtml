@@ -12,7 +12,7 @@
 <div class="container-fluid">
 	<table class="table table-striped">
 		<h2 class='display-4 mb-5'>Users</h2>
-		<a asp-area="admin" asp-controller="account" asp-action="Create" class="btn btn-primary">Create New User</a>
+		<a asp-area="admin" asp-controller="account" asp-action="Create" class="btn btn-primary mb-3">Create New User</a>
 
 		<thead>
 			<tr>
@@ -35,7 +35,16 @@
 					<tr>
 						<th scope="row">@i</th>
 						<td>
-							<img src="~/assets~/assets/img/profiles/@user.Profile" style="width : 100px; height : 100px" />
+							@{
+								if (user.Profile != null)
+								{
+									<img src="~/assets/img/profiles/@user.Profile" style="width : 100px; height : 100px; border-radius : 50%; object-fit : cover" />
+								}
+								else
+								{
+									<img src="~/assets/img/profiles/profile.png" style="width : 100px; height : 100px; border-radius : 50%; object-fit : cover" />
+								}
+							}
 						</td>
 						<td>@user.Name</td>
 						<td>@user.Lastname</td>
@@ -49,8 +58,8 @@
 							}
 						</td>
 						<td>
-							<a asp-area="admin" asp-controller="account" asp-action="update" class="btn btn-outline-primary">Update</a>
-							<a asp-area="admin" asp-controller="account" asp-action="delete" class="btn btn-outline-danger" onclick="return confirm(" Are You Sure?")">Delete</a>
+							<a asp-area="admin" asp-controller="account" asp-action="update" asp-route-id="@user.Id" class="btn btn-outline-primary">Update</a>
+							<a asp-area="admin" asp-controller="account" asp-action="delete" asp-route-id="@user.Id" class="btn btn-outline-danger" onclick="return confirm(" Are You Sure?")">Delete</a>
 						</td>
 					</tr>
 					i++;
