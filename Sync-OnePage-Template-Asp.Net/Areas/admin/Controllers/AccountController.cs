@@ -45,7 +45,7 @@ namespace Sync_OnePage_Template_Asp.Net.Areas.admin.Controllers
         {
             if(Id != null)
             {
-                if(_context.costumeUsers.Any(u => u.Id == Id)
+                if(_context.costumeUsers.Any(u => u.Id == Id))
                 {
                     CostumeUser user = _context.costumeUsers.Find(Id);
                     if(user.Profile != "progile.png")
@@ -71,10 +71,6 @@ namespace Sync_OnePage_Template_Asp.Net.Areas.admin.Controllers
                 return NotFound();
             }
         }
-
-
-
-
         public IActionResult Login()
         {
             return View();
