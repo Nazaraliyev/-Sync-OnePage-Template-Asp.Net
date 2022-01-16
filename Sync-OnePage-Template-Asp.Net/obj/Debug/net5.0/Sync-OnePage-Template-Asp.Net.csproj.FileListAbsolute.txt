@@ -303,3 +303,4 @@ N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\De
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Sync-OnePage-Template-Asp.Net.genruntimeconfig.cache
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Login.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Home\Index.cshtml.g.cs

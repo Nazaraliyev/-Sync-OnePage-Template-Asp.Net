@@ -2,16 +2,10 @@
 
 namespace Sync_OnePage_Template_Asp.Net.Areas.admin.Controllers
 {
-    [Area("admin")]
-    public class AccountController : Controller
+    public class HomeController : Controller
     {
+        [Area("admin")]
         public IActionResult Index()
-        {
-            return View();
-        }
-
-
-        public IActionResult Login()
         {
             return View();
         }
