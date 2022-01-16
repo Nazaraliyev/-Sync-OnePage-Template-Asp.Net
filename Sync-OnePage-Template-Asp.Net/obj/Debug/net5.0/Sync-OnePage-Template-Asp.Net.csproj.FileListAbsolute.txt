@@ -288,8 +288,6 @@ N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\De
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewImports.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewStart.cshtml.g.cs
-N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -304,3 +302,4 @@ N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\De
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Sync-OnePage-Template-Asp.Net.pdb
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Sync-OnePage-Template-Asp.Net.genruntimeconfig.cache
 N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Login.cshtml.g.cs
+N:\Codes\Back\Sync-OnePage-Template-Asp.Net\Sync-OnePage-Template-Asp.Net\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
